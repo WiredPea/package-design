@@ -7,4 +7,5 @@ install:
 script:
   - vendor/bin/phpunit
 notifications:
-  - travis@wiredpea.com
+  email:
+    - travis@wiredpea.com
