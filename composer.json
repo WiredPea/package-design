@@ -1,0 +1,19 @@
+{
+  "name": "Package design demo",
+  "autoload": {
+    "psr-4": {
+      "WiredPea\\PackageDesign\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WiredPea\\PackageDesign\\tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  }
+}
